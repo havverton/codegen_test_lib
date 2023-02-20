@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:yaml/yaml.dart';
 
-part 'colors.g.dart';
+part 'custom_colors.g.dart';
 
-class Color {
+class CustomColor {
   static List<ColorEnum> _values = [];
 
   static List<ColorEnum> get values => List.unmodifiable(_values);
